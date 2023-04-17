@@ -1,0 +1,20 @@
+version: "3"
+#ports: <host_port>:<container_port>
+services:
+  sbpl-db:
+    image: postgres:11-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=spring_playground
+  sbpl-smtp:
+    image: marlonb/mailcrab:latest
+    ports:
+      - "1080:1080"
+      - "1025:1025"
+  sbpl-webservice:
+    build: ./
+    ports:
+      - "8080:8080"
+
