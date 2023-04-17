@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/assets/logo.jpg"  />
+</p>
+
 # SpringBootPlayground
 A playground for Spring Boot running on docker and is used to test things before implementing in important projects and code.
 
