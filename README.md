@@ -12,8 +12,8 @@ As mentioned above, this repository is mostly to myself, when implementing more 
 1. Clone the project <br/>
 `git clone https://github.com/simonsejse/SpringBootPlayground.git`
 
-2. Build the projects <br/>
-`./gradlew.bat build -x test` (you don't have to exclude tests)
+2. Build the projects (you don't have to exclude tests)<br/>
+`./gradlew.bat build -x test` 
 
 3. Run docker compose <br/>
 `docker-compose up --build -d`
